@@ -1,13 +1,13 @@
-# lioooeeoooil-ux · GitHub 个人主页
+# lioooeeoooil-ux · 个人主页
 
-一个参考 GitHub 个人资料页设计的静态网站，使用纯 HTML、CSS 和 JavaScript，无需安装依赖或构建。
+一个以作品集为主的响应式个人网站，使用纯 HTML、CSS 和 JavaScript，无需依赖或构建步骤。
 
 ## 页面内容
 
-- 深色 GitHub 风格布局与响应式个人资料栏
-- 中英文个人简介切换
-- GitHub 公开资料和项目链接
-- 可搜索的置顶仓库卡片
+- 温暖简洁的个人介绍与自绘风格插画
+- 项目作品列表，链接到 GitHub 仓库
+- 关于介绍与联系入口
+- 适配手机和桌面的布局
 
 ## 本地预览
 
@@ -15,8 +15,6 @@
 
 ## GitHub Pages 部署
 
-网站通过 `.github/workflows/pages.yml` 自动部署到 GitHub Pages。推送到 `main` 后，Actions 会重新发布网站。
+网站通过 `.github/workflows/pages.yml` 自动部署到 GitHub Pages。推送到 `main` 后，Actions 会自动发布更新。
 
-当前线上地址：[https://lioooeeoooil-ux.github.io/liooeeooil-ux/](https://lioooeeoooil-ux.github.io/liooeeooil-ux/)
-
-如需更新头像或仓库信息，请编辑 `index.html` 中对应的图片地址、链接和项目卡片。
+线上地址：[https://lioooeeoooil-ux.github.io/liooeeooil-ux/](https://lioooeeoooil-ux.github.io/liooeeooil-ux/)
