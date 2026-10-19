@@ -1,19 +1,22 @@
-# 个人主页
+# lioooeeoooil-ux · GitHub 个人主页
 
-这是一个无需构建步骤的静态个人网站，入口文件是 `index.html`。
+一个参考 GitHub 个人资料页设计的静态网站，使用纯 HTML、CSS 和 JavaScript，无需安装依赖或构建。
 
-## 发布到 GitHub Pages
+## 页面内容
 
-1. 在 GitHub 新建一个 **Public** 仓库。
-2. 把本目录中的文件推送到仓库的 `main` 分支。
-3. 打开仓库的 **Settings → Pages**，在 **Build and deployment → Source** 中选择 **GitHub Actions**。
-4. 打开 **Actions**，等待 `Deploy to GitHub Pages` 工作流运行完成。
-5. 发布网址会显示在工作流的部署结果和仓库 **Settings → Pages** 页面中，通常格式为 `https://<用户名>.github.io/<仓库名>/`。
-
-之后每次推送到 `main`，网站都会自动重新部署。也可以在 **Actions** 中手动运行部署工作流。
+- 深色 GitHub 风格布局与响应式个人资料栏
+- 中英文个人简介切换
+- GitHub 公开资料和项目链接
+- 可搜索的置顶仓库卡片
 
 ## 本地预览
 
-直接在浏览器中打开 `index.html` 即可。
+直接在浏览器中打开 `index.html`。
 
-上线前，请在 `index.html` 中将“你的名字”、示例项目和 `hello@example.com` 替换为自己的资料。
+## GitHub Pages 部署
+
+网站通过 `.github/workflows/pages.yml` 自动部署到 GitHub Pages。推送到 `main` 后，Actions 会重新发布网站。
+
+当前线上地址：[https://lioooeeoooil-ux.github.io/liooeeooil-ux/](https://lioooeeoooil-ux.github.io/liooeeooil-ux/)
+
+如需更新头像或仓库信息，请编辑 `index.html` 中对应的图片地址、链接和项目卡片。
